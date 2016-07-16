@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you
+see that bug that was introduced?
+
+It helped me compare the two files line by line. Since the
+diff command clearly marked the lines that were added. I was 
+able to go through the newly added lines and thus quickly find
+the error. This allowed to save time, as I would have had to
+go through each line in each file manually to compare the
+differences.
+
+How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+
+Having the history of a file help a programmer log the
+evolution of a program. Particularly when making changes to
+a stable existing program, it provides an efficient way to
+restore to previoius bug free versions or to compare the
+exisitng code with previous versions for debugging purposes.
+
+Why do you think some version control systems like Git, allow
+saving multiple files in one commit, while others like Google
+Docs, treat each file separately?
+
+Git is meant for software development projects while systems
+like Google Docs are meant for single documents only.
+
+How can you use the commands git log and git diff to view the
+history of files?
+
+git log displays the complete history of a commits for a file.
+Each commit is asssigned an id. we can use git diff to find
+the diff between two commits using their respective IDs.
+
+How might using version control make you more confident to
+make changes that could break something?
+
+This would give me a lot of confidence to make bold changes
+as I can always revert to a previous working version.
