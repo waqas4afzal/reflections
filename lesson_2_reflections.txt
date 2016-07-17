@@ -50,3 +50,13 @@ accessed using the head at which the branches were merged.
 The diagram representation shows merging of two branches,
 which is, basically combining the commits of both branches
 from the commit where they were they branched off.
+
+What are the pros and cons of Git's automatic merging vs.
+always doing merges manually?
+
+Automaic merges save time from merging commits that add or
+remove lines of code from the original file. The 
+disadvantage is that Git is not sophisticated enough to
+adjust changes within lines of code, which results in the
+programmer having to manually find and resolve those 
+conflicts.
