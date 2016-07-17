@@ -15,3 +15,28 @@ user, whereas, the working directory and repository
 contains all the files contained in the project. the 
 staging area helps separate commits for different files
 in a single working directory.
+
+How can you use the staging area to make sure you have 
+one commit per logical change?
+
+By adding those files only that are related to one
+logical change to the staging area.
+
+What are some situations when branches would be helpful
+in keeping your history organized? How would branches
+help?
+
+Situations where we would like to try major changes to
+a program while at the same time maintaining a working
+version of the program. Changes in the structure or
+for experimenting with different features. Branching 
+helps by maintining a working version of the program
+while keeping a track of all changes on a different
+branch. Thus, the user can always revert to the 
+working version when needed by switching to that branch.
+
+How do the diagrams help you visualize the branch structure?
+
+Using the diagrams I can see the parents for each commit and
+therefore, find out at what point the branch originated from
+the master branch
