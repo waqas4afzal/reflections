@@ -39,4 +39,14 @@ How do the diagrams help you visualize the branch structure?
 
 Using the diagrams I can see the parents for each commit and
 therefore, find out at what point the branch originated from
-the master branch
+the master branch.
+
+What is the result of merging two branches together? Why do
+we represent it in the diagram the way we do?
+
+Merging two branches results in the commit history of both
+the branches merging. Thus, commits of both branches can be
+accessed using the head at which the branches were merged.
+The diagram representation shows merging of two branches,
+which is, basically combining the commits of both branches
+from the commit where they were they branched off.
