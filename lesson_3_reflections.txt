@@ -28,3 +28,12 @@ the remote stored locally?
 We can make changes to it locally while working offline while
 other changes by other collaborates can then later be fetched
 and merged with our changes.
+
+How would you collaborate without using Git or GitHub? What would
+be easier, and what would be harder?
+
+I would have to send my code over email or share it over the
+network if the other collaborators were on the same network. This
+would result in manually merging changes by other collaborator at
+one machine. Git and GitHub would be the easier option and manual
+collaboration is definitely time comsuming and difficult.
