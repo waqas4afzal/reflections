@@ -21,3 +21,10 @@ a repository from GitHub on to our local machines. Clones are
 also copies of a local repository on to another location locally.
 Branches are different changes to the same code from a certain
 point onwards.
+
+What is the benefit of having a copy of the last known state of
+the remote stored locally?
+
+We can make changes to it locally while working offline while
+other changes by other collaborates can then later be fetched
+and merged with our changes.
