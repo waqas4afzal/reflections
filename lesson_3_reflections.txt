@@ -37,3 +37,17 @@ network if the other collaborators were on the same network. This
 would result in manually merging changes by other collaborator at
 one machine. Git and GitHub would be the easier option and manual
 collaboration is definitely time comsuming and difficult.
+
+When would you want to make changes in a separate branch rather
+than directly in master? what benefits does each approach have?
+
+When I want to make changes to code that need discussion and
+approval from other collaborators, I would make changes in a
+separate branch. Making branches helps collaborators work 
+separately and then merge their work. This could lead to
+conflicts that would require manual modifications to the code to
+incorporate all the changes. Making changes directly to the
+master branch has the advantage that the changes can be merged
+automatically using fast-forward merges, but this would lead to
+all collaborators need to work synchronously to avoid introducing
+bugs to the code.
