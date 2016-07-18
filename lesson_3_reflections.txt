@@ -4,3 +4,20 @@ all your work local?
 Remote repositories help in sharing work across different members
 of a team working on the same project. It also allows access to
 the same project from different machines.
+
+Why might you want to always pull changes manually rather than
+having Git automatically stay up-to-date with your remote
+repository?
+
+Manually pulling changes might include commits from other people
+that might not be complete
+
+Describe the difference between forks, clones and Branches. When
+would you use one instead of the other?
+
+Forks are copies of repositories developed by another person in
+to a repository belonging to us on GitHub. Clones are copies of
+a repository from GitHub on to our local machines. Clones are
+also copies of a local repository on to another location locally.
+Branches are different changes to the same code from a certain
+point onwards.
