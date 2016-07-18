@@ -1,2 +1,6 @@
 Why would you want to use a remote repository rather than keeping
 all your work local?
+
+Remote repositories help in sharing work across different members
+of a team working on the same project. It also allows access to
+the same project from different machines.
